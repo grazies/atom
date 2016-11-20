@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atom by grazies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Atom</h1>
+      <h2 class="project-tagline">The hackable text editor</h2>
+      <a href="https://github.com/grazies/atom" class="btn">View on GitHub</a>
+      <a href="https://github.com/grazies/atom/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/grazies/atom/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p><img src="https://cloud.githubusercontent.com/assets/72919/2874231/3af1db48-d3dd-11e3-98dc-6066f8bc766f.png" alt="Atom"></p>
+
+<p><a href="https://circleci.com/gh/atom/atom"><img src="https://circleci.com/gh/atom/atom.svg?style=svg" alt="macOS Build Status"></a> <a href="https://travis-ci.org/atom/atom"><img src="https://travis-ci.org/atom/atom.svg?branch=master" alt="Linux Build Status"></a> <a href="https://ci.appveyor.com/project/Atom/atom"><img src="https://ci.appveyor.com/api/projects/status/1tkktwh654w07eim?svg=true" alt="Windows Build Status"></a>
+<a href="https://david-dm.org/atom/atom"><img src="https://david-dm.org/atom/atom.svg" alt="Dependency Status"></a>
+<a href="http://atom-slack.herokuapp.com/"><img src="http://atom-slack.herokuapp.com/badge.svg" alt="Join the Atom Community on Slack"></a></p>
+
+<p>Atom is a hackable text editor for the 21st century, built on <a href="https://github.com/atom/electron">Electron</a>, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</p>
+
+<p>Visit <a href="https://atom.io">atom.io</a> to learn more or visit the <a href="https://discuss.atom.io">Atom forum</a>.</p>
+
+<p>Follow <a href="https://twitter.com/atomeditor">@AtomEditor</a> on Twitter for important
+announcements.</p>
+
+<p>This project adheres to the Contributor Covenant <a href="CODE_OF_CONDUCT.md">code of conduct</a>.
+By participating, you are expected to uphold this code. Please report unacceptable behavior to <a href="mailto:atom@github.com">atom@github.com</a>.</p>
+
+<h2>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>If you want to read about using Atom or developing packages in Atom, the <a href="http://flight-manual.atom.io">Atom Flight Manual</a> is free and available online. You can find the source to the manual in <a href="https://github.com/atom/flight-manual.atom.io">atom/flight-manual.atom.io</a>.</p>
+
+<p>The <a href="https://atom.io/docs/api">API reference</a> for developing packages is also documented on Atom.io.</p>
+
+<h2>
+<a id="installing" class="anchor" href="#installing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installing</h2>
+
+<h3>
+<a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prerequisites</h3>
+
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+</ul>
+
+<h3>
+<a id="macos" class="anchor" href="#macos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>macOS</h3>
+
+<p>Download the latest <a href="https://github.com/atom/atom/releases/latest">Atom release</a>.</p>
+
+<p>Atom will automatically update when a new release is available.</p>
+
+<h3>
+<a id="windows" class="anchor" href="#windows" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows</h3>
+
+<p>Download the latest <a href="https://github.com/atom/atom/releases/latest">Atom installer</a>.  AtomSetup.exe is 32-bit, AtomSetup-x64.exe for 64-bit systems.</p>
+
+<p>Atom will automatically update when a new release is available.</p>
+
+<p>You can also download <code>atom-windows.zip</code> (32-bit) or <code>atom-x64-windows.zip</code> (64-bit) from the <a href="https://github.com/atom/atom/releases/latest">releases page</a>.
+The <code>.zip</code> version will not automatically update.</p>
+
+<p>Using <a href="https://chocolatey.org/">chocolatey</a>? Run <code>cinst Atom</code> to install the latest version of Atom.</p>
+
+<h3>
+<a id="debian-linux-ubuntu" class="anchor" href="#debian-linux-ubuntu" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Debian Linux (Ubuntu)</h3>
+
+<p>Atom is only available for 64-bit Linux systems.</p>
+
+<ol>
+<li>Download <code>atom-amd64.deb</code> from the <a href="https://github.com/atom/atom/releases/latest">Atom releases page</a>.</li>
+<li>Run <code>sudo dpkg --install atom-amd64.deb</code> on the downloaded package.</li>
+<li>Launch Atom using the installed <code>atom</code> command.</li>
+</ol>
+
+<p>The Linux version does not currently automatically update so you will need to
+repeat these steps to upgrade to future releases.</p>
+
+<h3>
+<a id="red-hat-linux-fedora-21-and-under-centos-red-hat" class="anchor" href="#red-hat-linux-fedora-21-and-under-centos-red-hat" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Red Hat Linux (Fedora 21 and under, CentOS, Red Hat)</h3>
+
+<p>Atom is only available for 64-bit Linux systems.</p>
+
+<ol>
+<li>Download <code>atom.x86_64.rpm</code> from the <a href="https://github.com/atom/atom/releases/latest">Atom releases page</a>.</li>
+<li>Run <code>sudo yum localinstall atom.x86_64.rpm</code> on the downloaded package.</li>
+<li>Launch Atom using the installed <code>atom</code> command.</li>
+</ol>
+
+<p>The Linux version does not currently automatically update so you will need to
+repeat these steps to upgrade to future releases.</p>
+
+<h3>
+<a id="fedora-22" class="anchor" href="#fedora-22" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fedora 22+</h3>
+
+<p>Atom is only available for 64-bit Linux systems.</p>
+
+<ol>
+<li>Download <code>atom.x86_64.rpm</code> from the <a href="https://github.com/atom/atom/releases/latest">Atom releases page</a>.</li>
+<li>Run <code>sudo dnf install ./atom.x86_64.rpm</code> on the downloaded package.</li>
+<li>Launch Atom using the installed <code>atom</code> command.</li>
+</ol>
+
+<p>The Linux version does not currently automatically update so you will need to
+repeat these steps to upgrade to future releases.</p>
+
+<h3>
+<a id="archive-extraction" class="anchor" href="#archive-extraction" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Archive extraction</h3>
+
+<p>An archive is available for people who don't want to install <code>atom</code> as root.</p>
+
+<p>This version enables you to install multiple Atom versions in parallel. It has been built on Ubuntu 64-bit,
+but should be compatible with other Linux distributions.</p>
+
+<ol>
+<li>Install dependencies (on Ubuntu): <code>sudo apt install git gconf2 gconf-service libgtk2.0-0 libudev1 libgcrypt20 libnotify4 libxtst6 libnss3 python gvfs-bin xdg-utils libcap2</code>
+</li>
+<li>Download <code>atom-amd64.tar.gz</code> from the <a href="https://github.com/atom/atom/releases/latest">Atom releases page</a>.</li>
+<li>Run <code>tar xf atom-amd64.tar.gz</code> in the directory where you want to extract the Atom folder.</li>
+<li>Launch Atom using the installed <code>atom</code> command from the newly extracted directory.</li>
+</ol>
+
+<p>The Linux version does not currently automatically update so you will need to
+repeat these steps to upgrade to future releases.</p>
+
+<h2>
+<a id="building" class="anchor" href="#building" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Building</h2>
+
+<ul>
+<li><a href="./docs/build-instructions/linux.md">Linux</a></li>
+<li><a href="./docs/build-instructions/macos.md">macOS</a></li>
+<li><a href="./docs/build-instructions/freebsd.md">FreeBSD</a></li>
+<li><a href="./docs/build-instructions/windows.md">Windows</a></li>
+</ul>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p><a href="https://github.com/atom/atom/blob/master/LICENSE.md">MIT</a></p>
+
+<p>When using the Atom or other GitHub logos, be sure to follow the <a href="https://github.com/logos">GitHub logo guidelines</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/grazies/atom">Atom</a> is maintained by <a href="https://github.com/grazies">grazies</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
